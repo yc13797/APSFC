@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加新类别</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<style type="text/css">
+			#c2 table{
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="bodyy">
+			<div id="top">
+				<div id="topleft"></div>
+				<div id="topright">
+					<marquee>管理员：sa您好，欢迎登录使用！</marquee>
+				</div>
+				<div id="toprr">
+					<a href="main.html"><img src="img/out.gif"/></a>
+				</div>
+			</div>
+			
+			<div id="left">
+				<ul>
+					<li class="menutitle"><b>菜单管理</b>
+						<ul>
+							<li class="meunPic"><img src="img/menu_topline.gif"/></li>
+							<li class="menu"><a href="newcaidan.html" class="liA">添加新菜单</a></li>
+							<li class="menu"><a href="caidanxinxi.html" class="liA">菜单信息列表</a></li>
+						</ul>
+					</li>
+					<li class="menutitle">
+						<b>菜单类别管理</b>
+						<ul>
+							<li class="meunPic"><img src="img/menu_topline.gif"/></li>
+							<li class="menu"><a href="addItem.html" class="liA">添加新类别</a></li>
+							<li class="menu"><a href="leibiexinxibiao.html" class="liA">类别信息列表</a></li>
+						</ul>
+					</li>
+					<li class="menutitle">
+						<b>公告信息管理</b>
+						<ul>
+							<li class="meunPic"><img src="img/menu_topline.gif"/></li>
+							<li class="menu"><a href="addnews.html" class="liA">添加新公告</a></li>
+							<li class="menu"><a href="listnews.html" class="liA">通告信息列表</a></li>
+						</ul>
+					</li>
+					<li class="menutitle">
+						<b>销售订单管理</b>
+						<ul>
+							<li class="meunPic"><img src="img/menu_topline.gif"/></li>
+							<li class="menu"><a href="xiaoshoudingdan.html" class="liA">销售订单信息列表</a></li>
+							<li class="menu"><a href="xiaoshoudingdanchaxun.html" class="liA">销售订单查询</a></li>
+							<li class="menu"><a href="benrixiaoshoujilu.html" class="liA">本日销售记录</a></li>
+						</ul>
+					</li>
+					<li class="menutitle"><a href="xitongyonghugaunli.html" class="leftBA"><b>系统用户管理</b></a><br /></li>
+					<li class="menutitle"><a href="main.html" class="leftBA"><b>注销退出</b></a></li>
+				</ul>
+			</div>
+			
+			<div id="right">
+				<div id="rigtop">
+					<div id="rigtitle" >
+						<b>添加菜品</b>
+					</div>
+				</div>
+				
+				<div id="c2">
+					<br /><br /><br />
+					<table align="center" border="1" cellspacing="0" cellpadding="0" width="950px" bordercolor="blue" >
+						<tr>
+							<td class="left">菜品名称：</td>
+							<td class="right"><input type="text" name="name" /></td>
+						</tr>
+						<tr>
+							<td class="left">原 料：</td>
+							<td class="right"><input type="text" name="recipe" /></td>
+						</tr>
+						<tr>
+							<td class="left">市场价格：</td>
+							<td class="right"><input type="text" name="price" /></td>
+						</tr>
+						<tr>
+							<td class="left">会员价格：</td>
+							<td class="right"><input type="text" name="priceAssociator" /></td>
+						</tr>
+						<tr>
+							<td class="left">说 明：</td>
+							<td class="right"><textarea name="brief" rows="10" cols="30"></textarea></td>
+						</tr>
+						<tr>
+							<td class="left">菜品类别：</td>
+							<td class="right">
+								<select name="type">
+									<option value="">蒸菜</option>
+									<option value="">凉菜</option>
+									<option value="">烧菜</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="left">上传图片：</td>
+							<td class="right"><input type="file" name="imgpath" /></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><input type="submit" /></td>
+						</tr>
+					</table>				
+				</div>
+
+
+			</div>
+		</div>
+	</body>
+</html>
