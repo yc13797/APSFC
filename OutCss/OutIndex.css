@@ -1,0 +1,48 @@
+body{
+	background-image: url(../apoH/img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;"
+}
+
+#all{
+	width: 98%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+#top{
+	width: 100%;
+	text-align: center;
+}
+
+#top a{
+	color: white;
+	text-decoration: none;
+}
+
+#all a:hover{
+	color: red;
+	font-size: larger;
+	text-decoration: underline;
+}
+
+#middle-left{
+	width: 30%;
+	height: 425px;
+	text-align: center;
+	float: left;
+}
+
+#middle-left table{
+	margin-top: 10px;
+	width: 80%;
+}
+
+#robot{
+	border: none;
+	outline: medium;
+	background-color: transparent;
+	border-bottom: 2px solid black;
+	color: gold;
+}
